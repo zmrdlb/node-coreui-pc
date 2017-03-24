@@ -1,0 +1,517 @@
+/**
+ *  所有页面公共的css，包括：
+ *    1. reset.less
+ *    2. 公共布局layout.less
+ *  @project h5项目
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/*reset.css 统一浏览器基本样式*/
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+hr,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+select,
+textarea,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: none;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+button,
+input {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+input,
+textarea,
+button,
+select {
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+/**
+ *  页面公共css
+ *  @project 业务公共框架
+ *  @description 命名空间：.coreui-g-
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2016-11-02
+ */
+/**
+ *  实用工具库和css公共配置的引用。
+ *    包括tool.less和config.less的引用
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *  项目整体定义的基本css变量：颜色、字体大小等
+ *  命名空间：.g-
+ *  @project h5项目
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *   @section 图片路径
+ */
+/**
+ * @section 颜色配置
+ */
+/**
+ *  实用工具库，包括：tool文件夹中的所有实用less方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2016-08-08
+ */
+/**
+ *   @section css模拟上下箭头
+ *   @author zhangmingrui
+ *   参数说明:
+ *      width: 箭头宽度
+ *      height: 箭头高度
+ *      color: 箭头颜色
+ *      border-width: 箭头宽度
+ *   使用方法：
+ *      .myclass {
+ *          .g-arrow();
+ *      }
+ *      <i class="myclass up"></i> 向上箭头
+ *      <i class="myclass"></i> 向下箭头
+ *      <i class="myclass right"></i> 向右箭头
+ *      <i class="myclass left"></i> 向左箭头
+ */
+/**
+ *  css3-transform动画
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *   @section 所有属性值都自己设置
+ */
+/**
+ *  浮动相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/* @section 清除浮动*/
+/**
+ *  flex布局相关的方法，兼容各种浏览器的私有属性。
+ *    flex布局现在某些安卓机上的浏览器不支持
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/***伸缩容器属性***/
+/*设置容器为flex伸缩布局*/
+/*主轴方向*/
+/*主轴对齐*/
+/*侧轴对齐，对齐伸缩项目*/
+/*伸缩行换行*/
+/*对齐伸缩行*/
+/*速记形式*/
+/***设置伸缩项目属性***/
+/*设置伸缩项目的顺序*/
+/*指定伸缩项目如何分配主轴上的剩余空间*/
+/*侧轴对齐，对齐伸缩项目*/
+/**
+ *  css3渐变相关方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ * @section 设置元素背景——一般线性渐变
+ * @angel 角度
+ * @reset 自定义扩展颜色配置参数
+ */
+/**
+ *  文字换行折行等相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/*不折行*/
+/*折行*/
+/*多行超出显示省略号——css3——webkit内核支持*/
+/*单行超出显示省略号——css3*/
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+/**
+ *   给placeholder设置颜色
+ */
+/**
+ *   @section shadow阴影方法
+ *   @author zhangmingrui | 592044573@qq.com
+ *   @date created 2016-05-30
+ *   参数说明：psd中的混合投影参数
+ *      @blur 距离
+ *      @spread 扩展
+ *      @size 大小
+ *      @angle 角度     小数
+ *      @color 结合设置的不透明度用rgba格式表示
+ *   @example .shadow(12rem,0.1,40rem,90,rgba(101,141,254,0.4));
+ */
+/**
+ *   @section css模拟对勾√
+ *   @author zhangmingrui
+ *   参数说明:
+ *      border-width: 对勾border宽度
+ *      color: 对勾颜色
+ *      width: 对勾长边的长度
+ *      height: 对勾短边的长度
+ *   使用方法：
+ *      .myclass{
+ *          .tick(...);
+ *      }
+ *      <i class="myclass"></i>
+ * }
+ */
+/**
+ *  css3-transition动画
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *   @section 所有属性值都自己设置
+ */
+/**
+ *   @section css模拟关闭按钮×
+ *   @author zhangmingrui
+ *   参数说明:
+ *      @border-width: 线条粗度
+ *      @len: 线条长度
+ *      @size: 关闭按钮宽度（宽度==高度）
+ *      @color: 线条颜色
+ *   使用方法：
+ *      .myclass{
+ *          .close(...);
+ *          //定位微调
+ *      }
+ *      <div class="myclass"></div>
+ * }
+ */
+/**
+ *   @section css模拟加号+
+ *   @author zhangmingrui
+ *   参数说明:
+ *      @border-width: 线条粗度
+ *      @len: 线条长度
+ *      @color: 线条颜色
+ *   使用方法：
+ *      .myclass{
+ *          .plusadd(...);
+ *          //定位微调
+ *      }
+ *      <div class="myclass"></div>
+ * }
+ */
+html,
+body {
+  height: 100%;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+/**
+ *  页面公共弹层css
+ *  @project 业务公共框架
+ *  @description 命名空间：.coreui-g-layer-
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2016-11-02
+ */
+/**
+ * 基本层
+ */
+.coreui-g-layer {
+  background: #fff;
+  border-radius: 5px;
+  min-width: 256px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  transition-property: top,transform;
+  transition-duration: .3s;
+  /* Safari */
+  -webkit-transition-property: top,transform;
+  -webkit-transition-duration: .3s;
+  /******加入一些css3动态效果*****/
+}
+.coreui-g-layer.hide-up {
+  transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  /* IE 9 */
+  -webkit-transform: translateY(-100%);
+  /* Safari and Chrome */
+  top: 0px !important;
+}
+.coreui-g-layer.show-up {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* IE 9 */
+  -webkit-transform: translateY(0px);
+  /* Safari and Chrome */
+}
+/**
+ * 警告弹层基本样式
+ */
+.coreui-g-warnlayer {
+  text-align: center;
+  max-width: 560px;
+  padding-top: 20px;
+}
+.coreui-g-warnlayer .title {
+  line-height: 34px;
+  font-size: 20px;
+  color: #000;
+}
+.coreui-g-warnlayer .body {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 16px;
+  line-height: 32px;
+  color: #999;
+  padding: 0px 20px 8px;
+  border-bottom: 1px solid #d2d3d5;
+}
+.coreui-g-warnlayer .footer a {
+  font-size: 18px;
+  line-height: 50px;
+  color: #357ef6;
+}
+/**
+ * alert层
+ */
+.coreui-g-layer-alert .footer a {
+  padding: 10px;
+}
+/**
+ * confirm层
+ */
+.coreui-g-layer-confirm .footer {
+  position: relative;
+}
+.coreui-g-layer-confirm .footer:before,
+.coreui-g-layer-confirm .footer:after {
+  content: " ";
+  display: table;
+}
+.coreui-g-layer-confirm .footer:after {
+  clear: both;
+}
+.coreui-g-layer-confirm .footer a {
+  display: block;
+  width: 50%;
+  float: left;
+}
+.coreui-g-layer-confirm .footer a.cancel {
+  color: #999;
+}
+.coreui-g-layer-confirm .footer .split {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 1px;
+  background-color: #d2d3d5;
+  left: 50%;
+}
+/**
+ * toast
+ */
+.coreui-g-layer-toast {
+  min-width: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 15px;
+  color: #fff;
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/**
+ * css3 loading
+ */
+.coreui-g-layer-loading {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-width: 0px;
+  /*Typing Loader*/
+}
+.coreui-g-layer-loading .typing_loader {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: coreui-g-typing 1s linear infinite alternate;
+  -moz-animation: coreui-g-typing 1s linear infinite alternate;
+  animation: coreui-g-typing 1s linear infinite alternate;
+  margin: 46px auto;
+  /* Not necessary- its only for layouting*/
+  position: relative;
+  left: -12px;
+}
+@-webkit-keyframes coreui-g-typing {
+  0% {
+    background-color: #ffffff;
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+  }
+}
+@-moz-keyframes coreui-g-typing {
+  0% {
+    background-color: #ffffff;
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+  }
+}
+@keyframes coreui-g-typing {
+  0% {
+    background-color: #ffffff;
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+  }
+}

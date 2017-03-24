@@ -1,0 +1,50 @@
+{
+  "name": "node-coreui-pc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browser": {
+    "libutil-datetime": "./js/widget/util/datetime.js",
+    "libutil-deviceevtname": "./js/widget/util/deviceevtname.js",
+    "libutil-resize": "./js/widget/util/resize.js",
+    "libutil-scroll": "./js/widget/util/scroll.js",
+    "libutil-tool": "./js/widget/util/tool.js",
+    "libutil-tpl": "./js/widget/util/tpl.js",
+    "libutil-winresize": "./js/widget/util/winresize.js",
+    "libutil-winscroll": "./js/widget/util/winscroll.js",
+    "libutil-workerControl": "./js/widget/util/workerControl.js",
+    "libutil-csssuport": "./js/widget/util/csssuport.js",
+    "liblayer-alert": "./js/widget/ui/layer/alert.js",
+    "liblayer-alertControl": "./js/widget/ui/layer/alertControl.js",
+    "liblayer-alertSingle": "./js/widget/ui/layer/alertSingle.js",
+    "liblayer-baseControl": "./js/widget/ui/layer/baseControl.js",
+    "liblayer-bombLayer": "./js/widget/ui/layer/bombLayer.js",
+    "liblayer-confirm": "./js/widget/ui/layer/confirm.js",
+    "liblayer-confirmControl": "./js/widget/ui/layer/confirmControl.js",
+    "liblayer-confirmSingle": "./js/widget/ui/layer/confirmSingle.js",
+    "liblayer-layer": "./js/widget/ui/layer/layer.js",
+    "liblayer-mask": "./js/widget/ui/layer/mask.js",
+    "liblayer-positionBomb": "./js/widget/ui/layer/positionBomb.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmrdlb/node-coreui-pc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmrdlb/node-coreui-pc/issues"
+  },
+  "homepage": "https://github.com/zmrdlb/node-coreui-pc#readme",
+  "dependencies": {
+    "ejs": "^2.5.6"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.2.2",
+    "babelify": "^7.3.0"
+  }
+}

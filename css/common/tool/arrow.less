@@ -1,0 +1,38 @@
+/**
+ *   @section css模拟上下箭头
+ *   @author zhangmingrui
+ *   参数说明:
+ *      width: 箭头宽度
+ *      height: 箭头高度
+ *      color: 箭头颜色
+ *      border-width: 箭头宽度
+ *   使用方法：
+ *      .myclass {
+ *          .g-arrow();
+ *      }
+ *      <i class="myclass up"></i> 向上箭头
+ *      <i class="myclass"></i> 向下箭头
+ *      <i class="myclass right"></i> 向右箭头
+ *      <i class="myclass left"></i> 向左箭头
+ */
+@import 'transform';
+
+.arrow(@width: 14px, @height: 14px, @color: #7b7b7b, @border-width:2px) {
+    display: inline-block;
+    width: @width;
+    height: @height;
+    border: @border-width solid @color;
+    border-bottom: none;
+    border-left: none;
+    vertical-align: middle;
+    .transform(rotate(135deg));
+    &.up {
+        .transform(rotate(-45deg));
+    }
+    &.right {
+        .transform(rotate(45deg));
+    }
+    &.left {
+        .transform(rotate(-135deg));
+    }
+}

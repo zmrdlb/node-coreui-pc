@@ -1,0 +1,37 @@
+/**
+ *   @section css模拟加号+
+ *   @author zhangmingrui
+ *   参数说明:
+ *      @border-width: 线条粗度
+ *      @len: 线条长度
+ *      @color: 线条颜色
+ *   使用方法：
+ *      .myclass{
+ *          .plusadd(...);
+ *          //定位微调
+ *      }
+ *      <div class="myclass"></div>
+ * }
+ */
+.plusadd(@border-width:2rem,@len:24rem,@color:#666){
+    width: @len / 40rem;
+    height: @len / 40rem;
+    position: relative;
+    &:before,&:after {
+        content: '';
+        position: absolute;
+        background-color: @color;
+    }
+    &:before {
+        width: 100%;
+        height: @border-width / 40rem;
+        top: 50%;
+        margin-top: -@border-width / 80rem;
+    }
+    &:after {
+        height: 100%;
+        width: @border-width / 40rem;
+        left: 50%;
+        margin-left: -@border-width / 80rem;
+    }
+}

@@ -6,7 +6,7 @@
  * */
 
  const ConfirmSingle = require('liblayer-confirmSingle'),
-        Csssuport = require('libutil-csssuport');
+        Csssuport = require('libutil-csssuport'),
         Tpl = require('./ui.confirm.html');
 
 ConfirmSingle.hidedestroy = false;

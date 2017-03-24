@@ -24,8 +24,9 @@ module.exports = function(grunt) {
 		   apps: {
                expand: true,
                cwd: '.',
-               src: ['js/widget/lib/**'],
-               dest: _product_dir
+               src: ['js/widget/lib/*.js'],
+               dest: _product_dir,
+               ext: '.js'
 		   }
 	    },
         //coreui css打包压缩

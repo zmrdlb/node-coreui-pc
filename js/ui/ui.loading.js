@@ -32,7 +32,6 @@ function createLoading(worker){
 module.exports = {
     show: function(){
         var loading = createLoading(workerControl.get());
-        loading.setContent('<div class="typing_loader"></div>');
         loading.show();
     },
     hide: function(){

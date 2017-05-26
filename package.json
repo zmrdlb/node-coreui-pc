@@ -26,7 +26,8 @@
     "liblayer-mask": "./js/widget/ui/layer/mask.js",
     "liblayer-positionBomb": "./js/widget/ui/layer/positionBomb.js",
     "libio-ioconfig": "./js/widget/io/ioconfig.js",
-    "libio-interio": "./js/widget/io/interio.js"
+    "libio-interio": "./js/widget/io/interio.js",
+    "libio-storage": "./js/widget/io/storage.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

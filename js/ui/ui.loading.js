@@ -15,8 +15,7 @@ function createLoading(worker){
             classname: 'coreui-g-layer coreui-g-layer-loading'
         },
         mask: {
-            bgcolor: '#fff', //背景色
-            opacity: 0, //遮罩透明度
+            bgcolor: 'transparent' //背景色
         }
     });
 

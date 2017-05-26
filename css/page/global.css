@@ -375,6 +375,14 @@ body {
   /* Safari and Chrome */
 }
 /**
+ * 基本遮罩
+ */
+.coreui-g-mask {
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  /* Safari */
+}
+/**
  * 警告弹层基本样式
  */
 .coreui-g-warnlayer {
@@ -460,4 +468,5 @@ body {
   min-width: 0px;
   background: url('../../img/circle-loading.svg') no-repeat;
   background-size: 100% 100%;
+  background: url('../../img/circle-loading.gif') no-repeat\0;
 }

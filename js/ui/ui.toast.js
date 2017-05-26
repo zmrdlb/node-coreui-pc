@@ -15,8 +15,7 @@ function createToast(worker){
             classname: 'coreui-g-layer coreui-g-layer-toast'
         },
         mask: {
-            bgcolor: '#fff', //背景色
-            opacity: 0, //遮罩透明度
+            bgcolor: '#fff' //背景色
         }
     });
 

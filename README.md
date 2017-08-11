@@ -15,6 +15,7 @@
 - npm
 - es6等js高级特性
 - 配置package.json中的browser字段，给js/widget中的部分代码起别名
+- 引入node pc版 js组件库：[widget](https://github.com/zmrdlb/node-widget-pc)
 
 ## 如何使用
 

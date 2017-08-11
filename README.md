@@ -14,6 +14,7 @@
 - node
 - npm
 - es6等js高级特性
+- 配置package.json中的browser字段，给js/widget中的部分代码起别名
 
 ## 如何使用
 
